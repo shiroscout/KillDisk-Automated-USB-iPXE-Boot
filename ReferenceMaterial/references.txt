@@ -1,0 +1,17 @@
+LSOFT - Killdisk
+Killdisk Manual
+http://www.killdisk.com/manual/
+http://www.killdisk.com/manual/#command-line-mode.html
+http://www.killdisk.com/manual/#boot-disk-creator.html
+https://www.killdisk.com/manual/index.html#reports-certificates.html
+
+IPXE.ORG
+https://ipxe.org/
+https://ipxe.org/wimboot
+https://ipxe.org/appnote/chainload_wds
+https://github.com/ipxe/ipxe
+https://forum.ipxe.org/showthread.php?tid=7032
+https://ipxe.org/howto/winpe
+
+MISTYPROJECTS
+http://mistyprojects.co.uk/documents/TinyPXEServer/files/ipxe.htm
