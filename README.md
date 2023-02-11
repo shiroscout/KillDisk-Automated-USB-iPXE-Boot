@@ -2,9 +2,9 @@
 # Note-I am currently learning git, md files creation and editing so forgive my current horribly formatted md file.
 ## TIP before starting: Please read through first because if you do not need some of the extra tools and just need the Killdisk to automatically run and send certificate via email, it will be a simpler process for you. You may not want the DART tools or some other items added so you may want  to setup a small list of objectives, and skip steps you do not need. 
 ## YAY >> This project is in working order and can be used. Tweaks and refinements may be needed or desired.
-## Feature List Overview
+## Feature List Overview:
 ## How to Create an USB Flash Drive Automated Killdisk with Active Data Studio Tools, DaRT Tools, Net/WIFI, and Report, Logs, Certificate sent via Email to you. 
-## Suggested Build Tools for this project
+## Suggested Build Tools for this project:
 ## Killdisk Data Studio
 and / or
 Killdisk Pro/Pro Suite/Ultimate
@@ -14,7 +14,7 @@ Skills in archive/compressed tools like PowerISO or Pea Zip
 Text Editor
 Skills with editing or tweaking scripts or figuring out what settings might need modified.
 Ability to search online for answers to questions.
-## Methods: USB Flash Drive or IPXE Boot
+## Methods and Use Intended: USB Flash Drive or IPXE Boot
 ### Usage: End Goal: Purpose of Project: To create an isolated Network PXE Boot server that 5-20 client computers can connect to via PXE boot, install Killdisk WinPE Utility, AutoStart Killdisk, do a DOD Compliant Erase of Hard Drives (3 Passes), create the Report, Log, and Certificates, copy them to a network drive location, and send an email with the Report, Log, and Certificates.
 As a “Milestone” is this project. If followed and my documentation correct the Boot from the USB Drive Killdisk will AutoStart a DOD 3 pass ERASE. The settings.xml can be modified to put a safety-stop mechanism where you are prompted with the standard “ERASE-ALL-DATA” confirmation.
 This would leave a project creator / user of project to only having to update my ticket notes, and attach the files to the ticket and close ticket, which is a great reduction to the current burden of the existing process. 
