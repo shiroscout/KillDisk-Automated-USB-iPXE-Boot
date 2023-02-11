@@ -1,5 +1,7 @@
 # How to Create an USB Flash Drive Automated Killdisk with Active Data Studio Tools, DaRT Tools, Net/WIFI, and Report, Logs, Certificate sent via Email to you.
 
+## Note- I believe I have uploaded all required files, folder, examples, etc… many of the actual project files, ISO, WIM, and other resources will be generated when building the project so the uploads here at Github are not a completed project in themselves. When completed, it should be a re-usable, automated tool for use. Look at the references folder and you can go to reference websites for more detailed information on different build structures. It’s a bit of a challenge going through getting it all setup, but once it works, it Rocks!
+
 ### Suggested Tools
 
 ### Killdisk Data Studio
@@ -42,7 +44,7 @@
 
 ## My Testing- I used Hyper-V, and 2 old desktops for physical PC testing, and used my phone tethered to see if it would work, and it worked and sent email. I wanted the portability of being anywhere at the plant I work at and can perform DOD Erases.
 
-## **Starting the Project – Please read through first because if you do not need some of the extra tools and just need the Killdisk to automatically run and send certificate via email, it will be a simpler process for you.**
+## Starting the Project – Please read through first because if you do not need some of the extra tools and just need the Killdisk to automatically run and send certificate via email, it will be a simpler process for you.
 
 ## BEGIN STEPS
 
@@ -218,7 +220,7 @@
 
 ## And running Killdisk…but when it gets done I do not get certificate emailed to me.
 
-## Ok, in settings.xml change the **SMTP port to 80** if using a WinPE Boot Disk. The port setting you may need to adjust depending on networking environment. You can possibly try a built-in powershell command or smtp service, or port 80 may work.
+## Ok, in settings.xml change the SMTP port to 80 if using a WinPE Boot Disk. The port setting you may need to adjust depending on networking environment. You can possibly try a built-in powershell command or smtp service, or port 80 may work.
 
 # OVERVIEW-Final Results:
 
