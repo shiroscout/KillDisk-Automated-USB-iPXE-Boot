@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<settings seed="2" version="2">
+    <general local-id="1">
+        <environment style="Blue style" toolbar="82"/>
+        <sound tunes="true">
+            <tune id="2">:/tunes/failure/chime</tune>
+            <tune id="3">:/tunes/error/digi</tune>
+            <tune id="4">:/tunes/warning/chime1</tune>
+            <tune id="5">:/tunes/done/chime1</tune>
+        </sound>
+        <triggers final-action="0" save-to-removable="true" updates="false"/>
+        <help src="1"/>
+    </general>
+    <splash/>
+    <views>
+        <main>
+            <status-bar visible="true"/>
+            <geometry>01d9d0cb00020000000000b8000000510000025a000001bc000000c00000007000000252000001b400000000000000000400</geometry>
+            <state>000000ff00000000fd0000000200000001000000c800000110fc0200000004fc0000001c00000110000000a501000016fa000000000200000002fb0000001c00700072006f0070006500720074006900650073005f0064006f00630100000000ffffffff0000008e00fffffffb000000120073006d006100720074005f0064006f00630100000000ffffffff0000008e00fffffffb0000002c0076006900650077005f006800650078005f00740065006d0070006c0061007400650073005f0064006f00630000000000ffffffff0000001b00fffffffc00000000ffffffff0000000000fffffffaffffffff0200000003fb0000002c0076006900650077005f006800650078005f0062006f006f006b006d00610072006b0073005f0064006f00630000000000ffffffff0000001b00fffffffb0000002c0076006900650077005f006800650078005f0069006e00730070006500630074006f0072005f0064006f00630000000000ffffffff0000001b00fffffffb000000320076006900650077005f006800650078005f00660069006e0064005f0072006500730075006c00740073005f0064006f00630000000000ffffffff0000001b00fffffffb000000360076006900650077005f006800650078005f0063006c00750073007400650072005f0063006800610069006e0073005f0064006f00630000000000ffffffff0000001b00ffffff00000003000000c80000008efc0100000001fb000000200076006900650077002d0063006f006e0073006f006c0065005f0064006f00630100000000000000c8000000c800ffffff000000c80000007f00000001000000020000000100000002fc00000000</state>
+        </main>
+        <explorer default="true" visible="true">
+            <toolbars>
+                <default attributes="82"/>
+                <control/>
+            </toolbars>
+            <disk-list attributes="15728898"/>
+        </explorer>
+        <view-console>
+            <toolbars/>
+            <font size="10"/>
+            <filter stream="368"/>
+            <geometry>01d9d0cb00020000000000000000001b000000c70000008d000000000000001b000000c70000008d00000000000000000400</geometry>
+            <state>000000ff00000000fd00000000000000c80000007300000004000000040000000800000008fc00000000</state>
+        </view-console>
+        <properties>
+            <toolbars/>
+        </properties>
+        <smart>
+            <toolbars>
+                <control/>
+            </toolbars>
+        </smart>
+        <view-log>
+            <filter stream="0"/>
+        </view-log>
+    </views>
+    <dialogs>
+        <ProgressSimpleDlg/>
+        <ProcessCompleteDlg show="true"/>
+        <SettingsDlg advanced="true" default="url-notify" explained="true">
+            <geometry>01d9d0cb00020000000000b80000007f00000487000002ea000000c00000009e0000047f000002e200000000000000000780</geometry>
+        </SettingsDlg>
+        <ActionConfirmDlg explained="true">
+            <geometry>01d9d0cb000200000000011c00000103000002f3000002230000012400000122000002eb0000021b00000000000000000400</geometry>
+        </ActionConfirmDlg>
+    </dialogs>
+    <processing>
+        <kill-disk init="true" usefprint="false" method="2" useverif="true" verif="100">
+            <udem/>
+            <confirm keyph="ERASE-ALL-DATA" phrase="1"/>
+            <labels preset="preset-2" use="true"/>
+        </kill-disk>
+        <wipe-disk slack="true" unused-clusters="true" meta-data="true" method="0" useverif="true" verif="100">
+            <udem/>
+            <labels preset="preset-2" use="false"/>
+        </wipe-disk>
+        <notification attributes="263" to="EMAIL ADDRESS CERT TO" use="true">
+            <smtp-service attributes="3" port="80"/>
+        </notification>
+        <certificate attributes="764" use-logo="true" save="true" printer-name="">
+            <encrypt use="false"/>
+            <signature use="false"/>
+            <path>C:\_kd\cert</path>
+            <pattern>Certificate-{SerialNumber}-{Status}-{Date(YYYY-MM-DD)}-{Time(HH-mm-ss)}</pattern>
+            <pdf/>
+        </certificate>
+        <report attributes="752" use="true">
+            <path>C:\_kd\REPORT</path>
+            <pattern>Report-{SerialNumber}-{Status}-{Date(YYYY-MM-DD)}-{Time(HH-mm-ss)}</pattern>
+        </report>
+        <disk-image>
+            <recent-files/>
+        </disk-image>
+        <area-select/>
+        <company sign="false" phone="" name="Sasol" address="" licensed="Information Management">
+            <waver>I hereby state that the data erasure has been carried out in accordance with the instructions given by software provider.</waver>
+            <logo>C:\_kd\COMPANYLOGO.png</logo>
+        </company>
+        <technician sign="false" name="Desktop Support Technician">
+            <note/>
+        </technician>
+        <presets/>
+        <error-handling lock-disk="false" skip="512" retries="3" abort="1" limit="10">
+            <ignore lock="true" write="true" read="true" prceding="true"/>
+            <error-rw-filter rw-limt="3" use="false"/>
+        </error-handling>
+        <url-notify use="false"/>
+    </processing>
+    <storages init="56">
+        <serial-numbers source="1"/>
+        <mounted-images/>
+    </storages>
+    <log attributes="33" file="developerWindows 1012D-16371-KillDisk-2020-12-15_163759.txt">
+        <path>C:\_kd\log\</path>
+        <pattern>{ComputerID}{OS}{UniqueID}-KillDisk-{Date(YYYY-MM-DD)}_{Time(HHmmss)}.txt</pattern>
+    </log>
+    <network/>
+    <nametags/>
+    <label-publisher printer="Microsoft Print to PDF" template-id="1" offset="0">
+        <presets default="preset-2">
+            <preset attributes="24" title="{ComputerID} by {AppName}" id="preset-2" caption="Default Disk Label Preset">
+                <text>PC Name: {ComputerID} 
+Operating System: {OS}
+Date: {DateStarted}
+HDD: {ProductID} 
+Serial: {SerialNumber}; Size: {Size}
+Method: {Method}; 
+Result: {Status}</text>
+            </preset>
+        </presets>
+        <shift shift_u="2">
+            <shift>0</shift>
+            <shift>0</shift>
+        </shift>
+    </label-publisher>
+    <hex-editor>
+        <font name="Courier New" size="11"/>
+        <viewport bytes="16" hex-offset="false" ascii="true" unicode="true" page="1" wheel="3"/>
+    </hex-editor>
+</settings>
