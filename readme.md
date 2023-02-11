@@ -2,6 +2,8 @@
 
 ## Note- I believe I have uploaded all required files, folder, examples, etc… many of the actual project files, ISO, WIM, and other resources will be generated when building the project so the uploads here at Github are not a completed project in themselves. When completed, it should be a re-usable, automated tool for use. Look at the references folder and you can go to reference websites for more detailed information on different build structures. It’s a bit of a challenge going through getting it all setup, but once it works, it Rocks!
 
+## YouTube Video on project at URL: [Azure Mig Flight Deck - YouTube](https://www.youtube.com/channel/UC7pfueb5p3F28HCsnF6E2wQ)
+
 ### Suggested Tools
 
 ### Killdisk Data Studio
