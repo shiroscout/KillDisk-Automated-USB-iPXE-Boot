@@ -1,6 +1,7 @@
 # KillDisk-Automated-USB-iPXE-Boot
 # Note-I am currently learning git, md files creation and editing so forgive my current horribly formatted md file.
-## TIP before starting: Please read through first because if you do not need some of the extra tools and just need the Killdisk to automatically run and send certificate via email, it will be a simpler process for you. You may not want the DART tools or some other items added so you may want  to setup a small list of objectives, and skip steps you do not need. This project is in working order and can be used. Tweaks and refinements may be needed or desired.
+## TIP before starting: Please read through first because if you do not need some of the extra tools and just need the Killdisk to automatically run and send certificate via email, it will be a simpler process for you. You may not want the DART tools or some other items added so you may want  to setup a small list of objectives, and skip steps you do not need. 
+## YAY >> This project is in working order and can be used. Tweaks and refinements may be needed or desired.
 ## Feature List Overview
 ## How to Create an USB Flash Drive Automated Killdisk with Active Data Studio Tools, DaRT Tools, Net/WIFI, and Report, Logs, Certificate sent via Email to you. 
 ## Suggested Build Tools for this project
